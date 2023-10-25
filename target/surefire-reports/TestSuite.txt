@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 18.958 s <<< FAILURE! - in TestSuite
+collabera.SwipeGestureClass.swipe  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot read field "Views" because "this.formPage" is null
+	at collabera.SwipeGestureClass.swipe(SwipeGestureClass.java:13)
+
+collabera.LaunchApplication.launchApp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot read field "Preference" because "this.formPage" is null
+	at collabera.LaunchApplication.launchApp(LaunchApplication.java:12)
+

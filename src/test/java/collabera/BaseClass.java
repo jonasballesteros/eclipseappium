@@ -42,7 +42,7 @@ public class BaseClass {
 		service.start();
 		UiAutomator2Options options=new UiAutomator2Options();
 		options.setDeviceName(deviceName);
-		options.setApp("C:\\\\Users\\COLLABERA.DIGITAL\\eclipse-workspace\\appium\\target\\classes\\resource\\ApiDemos-debug.apk");
+		options.setApp("C:\\Users\\COLLABERA.DIGITAL\\git\\eclipseappium\\Appium\\src\\main\\resources\\appUsed\\ApiDemos-debug.apk");
 		driver=new AndroidDriver(new URL("http://127.0.0.1:4723"),options);
 
 		formPage=new FormPage(driver);

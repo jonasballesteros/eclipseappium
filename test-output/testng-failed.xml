@@ -3,15 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="collabera.SwipeGestureClass">
-        <methods>
-          <include name="tearDown"/>
-          <include name="closeReport"/>
-          <include name="swipe"/>
-          <include name="startServerwithApp"/>
-          <include name="configReports"/>
-        </methods>
-      </class> <!-- collabera.SwipeGestureClass -->
       <class name="collabera.LaunchApplication">
         <methods>
           <include name="tearDown"/>
@@ -21,6 +12,15 @@
           <include name="configReports"/>
         </methods>
       </class> <!-- collabera.LaunchApplication -->
+      <class name="collabera.SwipeGestureClass">
+        <methods>
+          <include name="tearDown"/>
+          <include name="closeReport"/>
+          <include name="swipe"/>
+          <include name="startServerwithApp"/>
+          <include name="configReports"/>
+        </methods>
+      </class> <!-- collabera.SwipeGestureClass -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
